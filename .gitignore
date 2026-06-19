@@ -1,0 +1,27 @@
+# Local tool metadata
+.agents/
+.codex/
+.pnpm-store/
+
+# Dependencies and generated frontend output
+node_modules/
+dist/
+.tanstack/
+.nitro/
+.vinxi/
+.wrangler/
+
+# Java build output
+target/
+
+# Logs and local environment files
+*.log
+*.local
+.env
+.env.*
+
+# IDE/OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
